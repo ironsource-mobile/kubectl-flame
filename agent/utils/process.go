@@ -3,13 +3,14 @@ package utils
 import (
 	"bufio"
 	"errors"
-	"github.com/VerizonMedia/kubectl-flame/agent/details"
-	"github.com/VerizonMedia/kubectl-flame/api"
-	"github.com/fntlnz/mountinfo"
 	"io"
 	"os"
 	"path"
 	"strings"
+
+	"github.com/fntlnz/mountinfo"
+	"github.com/ironsource-mobile/kubectl-flame/agent/details"
+	"github.com/ironsource-mobile/kubectl-flame/api"
 )
 
 var (

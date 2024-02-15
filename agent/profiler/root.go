@@ -3,8 +3,8 @@ package profiler
 import (
 	"fmt"
 
-	"github.com/VerizonMedia/kubectl-flame/agent/details"
-	"github.com/VerizonMedia/kubectl-flame/api"
+	"github.com/ironsource-mobile/kubectl-flame/agent/details"
+	"github.com/ironsource-mobile/kubectl-flame/api"
 )
 
 type FlameGraphProfiler interface {

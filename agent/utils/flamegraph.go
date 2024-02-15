@@ -3,9 +3,10 @@ package utils
 import (
 	"bufio"
 	"encoding/base64"
-	"github.com/VerizonMedia/kubectl-flame/api"
 	"io/ioutil"
 	"os"
+
+	"github.com/ironsource-mobile/kubectl-flame/api"
 )
 
 func PublishFlameGraph(flameFile string) error {

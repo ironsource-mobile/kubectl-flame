@@ -79,7 +79,7 @@ NodeJS support is based on [perf](https://perf.wiki.kernel.org/index.php/Main_Pa
 Please refer to [the contributing.md file](Contributing.md) for information about how to get involved. We welcome issues, questions, and pull requests.
 
 ## Maintainers
-- Eden Federman: efederman@verizonmedia.com
+- Eden Federman: efederman@ironsource-mobile.com
 
 ## License
 This project is licensed under the terms of the [Apache 2.0](LICENSE-Apache-2.0) open source license. Please refer to [LICENSE](LICENSE) for the full terms.

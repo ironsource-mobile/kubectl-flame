@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/VerizonMedia/kubectl-flame/agent/details"
-	"github.com/VerizonMedia/kubectl-flame/agent/utils"
+	"github.com/ironsource-mobile/kubectl-flame/agent/details"
+	"github.com/ironsource-mobile/kubectl-flame/agent/utils"
 )
 
 const (

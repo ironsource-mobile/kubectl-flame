@@ -1,5 +1,5 @@
-//: Copyright Verizon Media
-//: Licensed under the terms of the Apache 2.0 License. See LICENSE file in the project root for terms.
+// : Copyright Verizon Media
+// : Licensed under the terms of the Apache 2.0 License. See LICENSE file in the project root for terms.
 package handler
 
 import (
@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/VerizonMedia/kubectl-flame/api"
-	"github.com/VerizonMedia/kubectl-flame/cli/cmd/data"
-	"github.com/VerizonMedia/kubectl-flame/cli/cmd/kubernetes"
+	"github.com/ironsource-mobile/kubectl-flame/api"
+	"github.com/ironsource-mobile/kubectl-flame/cli/cmd/data"
+	"github.com/ironsource-mobile/kubectl-flame/cli/cmd/kubernetes"
 	batchv1 "k8s.io/api/batch/v1"
 )
 

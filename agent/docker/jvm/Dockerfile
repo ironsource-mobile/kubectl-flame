@@ -1,6 +1,6 @@
 FROM golang:1.14-buster as agentbuild
-WORKDIR /go/src/github.com/VerizonMedia/kubectl-flame
-ADD . /go/src/github.com/VerizonMedia/kubectl-flame
+WORKDIR /go/src/github.com/ironsource-mobile/kubectl-flame
+ADD . /go/src/github.com/ironsource-mobile/kubectl-flame
 RUN go get -d -v ./...
 RUN cd agent && go build -o /go/bin/agent
 

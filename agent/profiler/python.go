@@ -2,10 +2,11 @@ package profiler
 
 import (
 	"bytes"
-	"github.com/VerizonMedia/kubectl-flame/agent/details"
-	"github.com/VerizonMedia/kubectl-flame/agent/utils"
 	"os/exec"
 	"strconv"
+
+	"github.com/ironsource-mobile/kubectl-flame/agent/details"
+	"github.com/ironsource-mobile/kubectl-flame/agent/utils"
 )
 
 const (
