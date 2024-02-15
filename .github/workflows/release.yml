@@ -1,8 +1,10 @@
 name: Release
 on:
-  push:
-    tags:
-    - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Git tag to build release from
+        required: true
 permissions:
   id-token: write # This is required for requesting the JWT
   contents: read  # This is required for actions/checkout
